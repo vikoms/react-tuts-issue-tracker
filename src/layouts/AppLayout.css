@@ -1,0 +1,16 @@
+.menu-link {
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--mantine-color-text);
+}
+
+.menu-link:hover {
+  background-color: var(--mantine-color-default-hover);
+}
+
+.menu-link-active {
+  background-color: var(--mantine-color-blue-light);
+  color: var(--mantine-color-blue-light-color);
+  font-weight: 600;
+}
